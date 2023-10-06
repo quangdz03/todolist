@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <header id="nav_bar">
+        <h2 class="logo">𝓽𝓱𝓲𝓷𝓴</h2>
+    </header>
+    <section id="todo_home">
+        <div class="todo_list">
+            <div class="bars">
+                <i class="fa-solid fa-bars"></i>
+                <h2>All Tasks</h2>
+            </div>
+            <div class="input-text">
+                <input type="text" id="input-box" placeholder="What do you think?" required>
+                <button onclick="addTask()">ADD</button>
+            </div>
+            <ul id="task_item">
+                <!-- <li class="checker"></li> -->
+            </ul>
+        </div>
+        <div class="add-content">
+            <i class="fa-solid fa-square-plus"></i>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
